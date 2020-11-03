@@ -100,5 +100,17 @@ p{
     pointer-events: none;
     z-index: 2;
     backdrop-filter: brightness(250%) saturate(80%);
+    transition-property: background, transform ;
+}
+.link-grow {
+    transform: scale(1.5) translate(-25%, -25%);
+    background: #222;
+    opacity: 0.9;
+    z-index: 2;
+}
+.hovered-link {
+    color: rgb(255, 163, 255);
+    transition: 0.4s ease-out;
+    z-index: 3;
 }
 /*# sourceMappingURL=style.css.map */
