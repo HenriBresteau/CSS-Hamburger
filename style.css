@@ -10,6 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
     height: 100vh;
+    cursor: none;
 }
 nav {
     display: flex;
@@ -97,5 +98,7 @@ p{
     position: absolute;
     transform: translate(-50%,-50%);
     pointer-events: none;
+    z-index: 2;
+    backdrop-filter: brightness(250%) saturate(80%);
 }
 /*# sourceMappingURL=style.css.map */
