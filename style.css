@@ -10,4 +10,30 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    align-items: center;
+    margin: auto;
+    padding: 0 2rem;
+    background: purple;
+    color: #eee;
+    position: relative;
+    box-shadow: 0 0 4px #333;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav-links li {
+    padding: 1rem;
+}
+.nav-links, h2 {
+    flex: 1;
+}
+p{
+    margin: 3rem 2rem;
+}
 /*# sourceMappingURL=style.css.map */
