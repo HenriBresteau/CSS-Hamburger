@@ -71,4 +71,12 @@ p{
     display: block;
 }
 
+@media screen and (min-width:600px){
+    .fa-times {
+        visibility: hidden !important;
+    }
+    .nav-links {
+        display: flex !important;
+    }
+}
 /*# sourceMappingURL=style.css.map */
